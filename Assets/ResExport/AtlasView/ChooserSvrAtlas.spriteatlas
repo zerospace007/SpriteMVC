@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ChooserSvrAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    - serializedVersion: 2
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f6ae3c1cd98445440ba632eb1c0f7816, type: 3}
+    totalSpriteSurfaceArea: 299367
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9a07adc1c954c734eb903a9968dd7668, type: 3}
+  - {fileID: 21300000, guid: 386f3b62c52ff8043b136b44d72dccae, type: 3}
+  - {fileID: 21300000, guid: 6d390524eb229084789285e2da1928e5, type: 3}
+  - {fileID: 21300000, guid: 0d6e24e468d3a3a409a38eb5390d5ed8, type: 3}
+  - {fileID: 21300000, guid: 86ff5156dd355d44e9b5504804a7e289, type: 3}
+  - {fileID: 21300000, guid: 170c3037ce3a1f4449496aba5b246b7f, type: 3}
+  - {fileID: 21300000, guid: fea67f59a808e1f4e88d351af38b6631, type: 3}
+  - {fileID: 21300000, guid: 4f044f1a88ee8b74f8da0a7f80543de5, type: 3}
+  - {fileID: 21300000, guid: bd17c73afe74bfc4a852acb8db809970, type: 3}
+  - {fileID: 21300000, guid: 6bcd0b0b323dcf3448a11c34b7dea46e, type: 3}
+  - {fileID: 21300000, guid: ef2e9dbb2feffec4688e0c78c2b90a48, type: 3}
+  - {fileID: 21300000, guid: cc95983ce5870e544bd69e6f87107d86, type: 3}
+  - {fileID: 21300000, guid: 02d9572d3095c494bb72786ed18d0f37, type: 3}
+  - {fileID: 21300000, guid: d3aef17fe85196c4dba5a04ae4814911, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Lastest
+  - BGBottom
+  - State1
+  - State4
+  - TitleBg
+  - LeftBg_0
+  - BtnBack
+  - Line
+  - ItemBg
+  - Select
+  - State3
+  - ChooseSvr
+  - State2
+  - LeftLine
+  m_Tag: ChooserSvrAtlas
+  m_IsVariant: 0

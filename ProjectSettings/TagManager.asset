@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameManager
+  - GUICamera
+  - MapCamera
+  - TipsCanvas
+  - UICanvas
+  - MapCanvas
+  - GuideCanvas
+  - NormalCanvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - UILayer
+  - MapLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Particle
+    uniqueID: 3982109393
+    locked: 0
+  - name: Gui
+    uniqueID: 3693681845
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

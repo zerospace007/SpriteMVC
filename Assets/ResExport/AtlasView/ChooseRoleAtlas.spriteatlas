@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ChooseRoleAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    - serializedVersion: 2
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 724407db51f4eb64c913e3db9196113e, type: 3}
+    totalSpriteSurfaceArea: 500970
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5c3cf96019212fb449517127f0748152, type: 3}
+  - {fileID: 21300000, guid: 468a88c21f5993a42b1f4f4d2ece11e9, type: 3}
+  - {fileID: 21300000, guid: 29d7c557dc2c1e84fa751a77bfa5d2ba, type: 3}
+  - {fileID: 21300000, guid: 6463089714ae2304d869c1a7bd3eccd5, type: 3}
+  - {fileID: 21300000, guid: 57728e8811044904da086997fa268924, type: 3}
+  - {fileID: 21300000, guid: fc4a8aa84ebdc684cb2efe3ab71d7401, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ImgChooseBg
+  - RoleName
+  - RoleBg
+  - BtnRandom
+  - ImgChoose
+  - BtnStart
+  m_Tag: ChooseRoleAtlas
+  m_IsVariant: 0

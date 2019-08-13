@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TipsAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    - serializedVersion: 2
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 89130710db1b4434fbf4ccdc0e0e2d9e, type: 3}
+    totalSpriteSurfaceArea: 208823
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b29f9a9051298fc469780f9991fba83a, type: 3}
+  - {fileID: 21300000, guid: 80aeb1412702aff43bacc70fc89c4482, type: 3}
+  - {fileID: 21300000, guid: fa5fca61b2c9cac48a58317f22c2707d, type: 3}
+  - {fileID: 21300000, guid: d54cf30232f5dc843a265d525585d010, type: 3}
+  - {fileID: 21300000, guid: c07c5213499aecb46833a6410182b760, type: 3}
+  - {fileID: 21300000, guid: 21ed70a34be1986409d6a9e72ef4e19d, type: 3}
+  - {fileID: 21300000, guid: ef6f111460128aa45a7769ab5de18fc3, type: 3}
+  - {fileID: 21300000, guid: ff5aebc5d4ab13f44b28bbe4df855423, type: 3}
+  - {fileID: 21300000, guid: 4fd3a7c82952d7040b7b5d2a848d07fe, type: 3}
+  - {fileID: 21300000, guid: c2bd5eaabe39b2746aab5d721551375f, type: 3}
+  - {fileID: 21300000, guid: c70e78db3cf8c76419abe8fd0d71cc6a, type: 3}
+  - {fileID: 21300000, guid: 24b1195cb7485f749beae4e8f781840d, type: 3}
+  - {fileID: 21300000, guid: 98d0523d7a72d8048a8d456c51c75563, type: 3}
+  - {fileID: 21300000, guid: f7e7257d5ac4ca046a8ba474b9219e0c, type: 3}
+  - {fileID: 21300000, guid: 1c3d44dda207804499672a3e7251cfc1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Sliver
+  - Combat
+  - Coat
+  - LevelUp
+  - VipLevelUp
+  - Food
+  - Metal
+  - VipNum
+  - Soldiers
+  - Wood
+  - Energy
+  - Exp
+  - Sw
+  - Arena
+  - Gold
+  m_Tag: TipsAtlas
+  m_IsVariant: 0
