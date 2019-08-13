@@ -3,5 +3,6 @@ QQ群1：685243575
 
 本框架工程基于Unity 2018.3.5 + UGUI + tolua构建
 
-作为国内最早一批ulua和SimpleFrameWork的使用者与追随者，由衷感谢ulua/tolua以及LuaFramework的创建者与开发者为国产游戏热更新方案作出的贡献，同时对slua与xlua的作者真诚的感谢！（都是牛人，没有引战的意思）。
+作为国内最早一批ulua和SimpleFrameWork的使用者与追随者，由衷感谢ulua/tolua以及LuaFramework的创建者与开发者为国产游戏热更新方案作出的贡献，同时对slua与xlua的作者表示真诚的感谢！（都是牛人，没有引战的意思）。
+
 在使用LuaFramework的过程当中，为了项目的便利自己不断的修改完善，使用PureMVC的思维，用lua实现一套类似的逻辑，用于lua部分代码mvc的实现是修改的初衷，这便是框架的由来过程；C#大部分代码与逻辑仍沿用LuaFramework比如Assetbundle的下载以及加载，只有lua部分完全使用PureMVC方式另外实现，自己算是tolua、LuaFramework、PureMVC的整合搬运工。
