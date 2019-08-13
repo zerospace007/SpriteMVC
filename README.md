@@ -10,14 +10,17 @@ QQ群1：685243575
 网络协议数据序列化与反序列化部分直接使用的Json，其他Protobuf或二进制流方式可以参照tolua重新实现。
 
 引用：
+
 tolua#地址： https://github.com/topameng/tolua
 LuaFrameWork地址：https://github.com/jarjin/LuaFramework_UGUI 
 
 关于配置与语言包的生成与使用，是用Python 3使用xlrd库，生成lua配置文件，可读性较强，但是仍存有很多可优化的空间，只是本人对lua没有很深入的研究，暂时只想到如此处理办法：
+
 xlsx2lua工具地址：https://github.com/zerospace007/xls2lua-python
 语言包工具地址：https://github.com/zerospace007/xlsx2lua-language
 
 关于AssetBundle打包工具，这里推荐:
+
 https://github.com/Unity-Technologies/AssetBundles-Browser
 
 最后在这里极力向大家推荐LuaPerfect编辑调试工具，由腾讯某技术组免费提供，支持断点调试，良心产品，友好支持ulua/tolua，slua，xlua。
