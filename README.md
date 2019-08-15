@@ -24,7 +24,7 @@ xlsx2lua工具地址：https://github.com/zerospace007/xls2lua-python
 关于AssetBundle打包工具，这里推荐:
 https://github.com/Unity-Technologies/AssetBundles-Browser
 
-最后在这里极力向大家推荐LuaPerfect编辑调试工具，由腾讯某技术组免费提供，支持断点调试，良心产品，友好支持ulua/tolua，slua，xlua。
+最后在这里极力向大家推荐LuaPerfect编辑调试工具，由腾讯厂大牛Anders（qq：672250695）免费提供，支持断点调试，良心产品，友好支持使用ulua/tolua，slua，xlua等项目工程。
 
 https://github.com/jiangzheng1986/LuaPerfect
 
