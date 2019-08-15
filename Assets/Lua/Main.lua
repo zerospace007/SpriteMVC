@@ -1,6 +1,12 @@
 if GameConst.DebugMode then
-	require("LuaDebuggee").StartDebug("127.0.0.1", 9826)
+	local _, LuaDebuggee = pcall(require, 'LuaDebuggee')
+	if LuaDebuggee and LuaDebuggee.StartDebug then
+		LuaDebuggee.StartDebug('127.0.0.1', 9826)
+	else
+		print('Please read the FAQ.pdf')
+	end
 end
+
 
 local Util = Framework.Utility.Util;				--工具方法
 local LuaHelper = Framework.Utility.LuaHelper;		--帮助
