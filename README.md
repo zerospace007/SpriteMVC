@@ -25,6 +25,7 @@ xlsx2lua工具地址：https://github.com/zerospace007/xls2lua-python
 https://github.com/Unity-Technologies/AssetBundles-Browser
 
 最后在这里极力向大家推荐LuaPerfect编辑调试工具，由腾讯某技术组免费提供，支持断点调试，良心产品，友好支持ulua/tolua，slua，xlua。
+https://github.com/jiangzheng1986/LuaPerfect
 LuaPerfect官方群：932801740
 
 ##展示mvc核心代码，使用观察者模式，实现lua模块消息的发布-订阅
