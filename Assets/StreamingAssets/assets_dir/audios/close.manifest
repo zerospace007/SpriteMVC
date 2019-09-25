@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3556599981
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: efc2941b5127d744bae1cea708a137ed
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResExport/Audios/Close.ogg
+Dependencies: []

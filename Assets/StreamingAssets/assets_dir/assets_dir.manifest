@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 3511329809
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: common/bgcommon
+      Dependencies: {}
+    Info_1:
+      Name: common/bgmsgbox
+      Dependencies: {}
+    Info_2:
+      Name: ui/choosesvrview
+      Dependencies:
+        Dependency_0: common/bgcommon
+    Info_3:
+      Name: common/bglogin
+      Dependencies: {}
+    Info_4:
+      Name: atlas/loginatlas
+      Dependencies: {}
+    Info_5:
+      Name: atlas/tipsatlas
+      Dependencies: {}
+    Info_6:
+      Name: atlas/chooseroleatlas
+      Dependencies: {}
+    Info_7:
+      Name: atlas/choosersvratlas
+      Dependencies: {}
+    Info_8:
+      Name: audios/close
+      Dependencies: {}
+    Info_9:
+      Name: audios/openui
+      Dependencies: {}
+    Info_10:
+      Name: audios/click
+      Dependencies: {}
+    Info_11:
+      Name: audios/start
+      Dependencies: {}
+    Info_12:
+      Name: audios/bgmlogin
+      Dependencies: {}
+    Info_13:
+      Name: ui/msgbox
+      Dependencies: {}
+    Info_14:
+      Name: ui/loginview
+      Dependencies:
+        Dependency_0: common/bglogin
+    Info_15:
+      Name: ui/icontips
+      Dependencies: {}
+    Info_16:
+      Name: ui/chooseroleview
+      Dependencies:
+        Dependency_0: common/bglogin

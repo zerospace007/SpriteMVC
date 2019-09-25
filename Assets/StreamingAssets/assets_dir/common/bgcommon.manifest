@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2870259301
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f1e745b012c1c150b6bf3b0b1f4b4313
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResQuote/Textures/Background/BgCommon.png
+Dependencies: []

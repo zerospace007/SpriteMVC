@@ -12,7 +12,7 @@ namespace Framework
     public class ObjectPool<T> where T : class
     {
         /// <summary>
-        /// 对象栈
+        /// 对象堆栈
         /// </summary>
         private readonly Stack<T> m_Stack = new Stack<T>();
         private readonly UnityAction<T> m_ActionOnGet;
@@ -46,7 +46,7 @@ namespace Framework
         }
 
         /// <summary>
-        /// 回事对象
+        /// 回收对象
         /// </summary>
         /// <param name="element"></param>
         public void Recyle(T element)

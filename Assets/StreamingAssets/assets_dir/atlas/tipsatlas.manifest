@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1522124049
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 433b3aa4ceb735780bd4ba38341e3784
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8f81471f4cfc7bf93c7fa752ebb4eb40
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResExport/AtlasView/TipsAtlas.spriteatlas
+Dependencies: []

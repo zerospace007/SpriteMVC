@@ -25,32 +25,26 @@ namespace Framework.Core
     /// <summary>
     /// 外观管理类
     /// </summary>
-    public class Facade : Singleton<GameFacade>
+    public class Facade : Singleton<Facade>
     {
         #region Feilds And Properties
 
         private IController _controller;
 
         #endregion
-
-        #region Constructor
-
-        public Facade()
-        {
-            // ReSharper disable once VirtualMemberCallInContructor
-            InitFramework();
-        }
-
-        #endregion
-
         #region Methods
 
         #region Framework Methods
 
+        public Facade()
+        {
+            InitFramework();
+        }
+
         /// <summary>
         /// 初始化框架，命令管理器
         /// </summary>
-        protected virtual void InitFramework()
+        public void InitFramework()
         {
             if (_controller != null) return;
             _controller = Controller.Instance;

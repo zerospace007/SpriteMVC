@@ -9,7 +9,7 @@ PlayerSettings:
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 0
-  targetDevice: 2
+  targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: lingyao
@@ -156,16 +156,16 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.lingyao.ThreeKindoms
-    Standalone: unity.LingYao.ThreeKindoms
+    Android: com.lingyao.expedition
+    Standalone: com.lingyao.expedition
     Tizen: com.junfine.luaframework
-    iOS: com.lingyao.goonanexpedition
+    iOS: com.lingyao.expedition
     tvOS: com.junfine.luaframework
   buildNumber:
-    iOS: 
+    iOS: 1.0.0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 21
-  AndroidTargetSdkVersion: 28
+  AndroidMinSdkVersion: 24
+  AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
@@ -179,7 +179,7 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 214
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 9.0
+  iOSTargetOSVersionString: 10.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 9.0
@@ -753,16 +753,16 @@ PlayerSettings:
     7: USING_DOTWEENING
     13: USING_DOTWEENING
   platformArchitecture:
-    iOS: 0
+    iOS: 1
   scriptingBackend:
-    Android: 0
+    Android: 1
     Metro: 2
     WP8: 2
     WebGL: 1
     iOS: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel:
-    Android: 0
+    Android: 3
     Standalone: 3
     iOS: 3
   incrementalIl2cppBuild: {}
@@ -771,6 +771,7 @@ PlayerSettings:
   scriptingRuntimeVersion: 1
   apiCompatibilityLevelPerPlatform:
     Android: 6
+    iOS: 6
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: SimpleFramework

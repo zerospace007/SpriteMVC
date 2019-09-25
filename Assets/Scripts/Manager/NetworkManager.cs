@@ -14,20 +14,11 @@ namespace Framework
     /// </summary>
     public class NetworkManager : MonoBehaviour
     {
-        /// <summary>
-        /// Socket客户端
-        /// </summary>
-        private SocketClient m_SocketClient;
-
-        /// <summary>
-        /// 锁定对象
-        /// </summary>
-        private static readonly object m_lockObject = new object();
-        /// <summary>
-        /// 消息队列
-        /// </summary>
+        private Facade m_Facade = Facade.Instance;      //外观类入口
+        private SocketClient m_SocketClient;            //Socket客户端
+        private static readonly object m_lockObject = new object(); //锁定对象
         private static Queue<KeyValuePair<int, string>> EventQuene = new Queue<KeyValuePair<int, string>>();
-
+                                                                    //消息队列
         /// <summary>
         /// 登录客户端
         /// </summary>
@@ -93,7 +84,7 @@ namespace Framework
             while (EventQuene.Count > 0)
             {
                 var eventData = EventQuene.Dequeue();
-                Facade.Instance.SendNotification(NotifyName.DispatchMessage, eventData);
+                m_Facade.SendNotification(NotifyName.DispatchMessage, eventData);
             }
         }
 

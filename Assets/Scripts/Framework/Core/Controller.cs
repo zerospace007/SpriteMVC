@@ -17,7 +17,7 @@ namespace Framework.Core
         /// <summary>
         /// 构建命令控制管理，初始化存储词典
         /// </summary>
-        private Controller()
+        public Controller()
         {
             InitializeController();
         }

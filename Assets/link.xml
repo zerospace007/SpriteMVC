@@ -1,6 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <linker>
-       <assembly fullname="mscorlib">
-	       	<namespace fullname="System.Collections.Generic" preserve="all"/>
-       </assembly>
+  <assembly fullname="Assembly-CSharp" preserve="all"/>
+  <assembly fullname="UnityEngine" preserve="all"/>
+  <assembly fullname="mscorlib">
+    <namespace fullname="System" preserve="all"/>
+    <namespace fullname="System.Security.Cryptography" preserve="all"/>
+    <namespace fullname="System.Collections.Generic" preserve="all"/>
+  </assembly>
 </linker>

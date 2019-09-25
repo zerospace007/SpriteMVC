@@ -54,9 +54,9 @@ public class LuaClient : MonoBehaviour
 
     protected virtual void OpenLibs()
     {
-        luaState.OpenLibs(LuaDLL.luaopen_pb);
-        luaState.OpenLibs(LuaDLL.luaopen_struct);
-        luaState.OpenLibs(LuaDLL.luaopen_lpeg);
+        //luaState.OpenLibs(LuaDLL.luaopen_pb);
+        //luaState.OpenLibs(LuaDLL.luaopen_struct);
+        //luaState.OpenLibs(LuaDLL.luaopen_lpeg);
 #if UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
         luaState.OpenLibs(LuaDLL.luaopen_bit);
 #endif

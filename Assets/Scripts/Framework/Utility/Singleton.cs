@@ -30,10 +30,7 @@ namespace Framework.Utility
                 Monitor.Enter(lockObj = LockObj);
                 try
                 {
-                    if (_instance == null)
-                    {
-                        _instance = (T)Activator.CreateInstance(typeof(T), true);
-                    }
+                    _instance = Activator.CreateInstance<T>();
                 }
                 finally
                 {

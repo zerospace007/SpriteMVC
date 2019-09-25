@@ -14,7 +14,8 @@ namespace Framework.Core
     {
         #region Feilds and Properties
 
-        private GameFacade Facade = GameFacade.Instance;                //外观管理类
+        private Facade _facade = Facade.Instance;                        //外观管理类
+        private Controller _controller = Controller.Instance;            //命令管理类
 
         private ResourceManager _resourceManager;                       //资源加载管理器
         private LuaManager _luaManager;                                 //Lua脚本管理
@@ -58,7 +59,7 @@ namespace Framework.Core
         protected void RegisterMessage(IView view, List<string> messages)
         {
             if (messages == null || messages.Count == 0) return;
-            Controller.Instance.RegisterViewCommand(view, messages.ToArray());
+            _controller.RegisterViewCommand(view, messages.ToArray());
         }
 
         /// <summary>
@@ -69,7 +70,7 @@ namespace Framework.Core
         protected void RemoveMessage(IView view, List<string> messages)
         {
             if (messages == null || messages.Count == 0) return;
-            Controller.Instance.RemoveViewCommand(view, messages.ToArray());
+            _controller.RemoveViewCommand(view, messages.ToArray());
         }
 
         /// <summary>
@@ -80,7 +81,7 @@ namespace Framework.Core
         protected void RegisterMessage(IView view, string[] messages)
         {
             if (messages == null || messages.Length == 0) return;
-            Controller.Instance.RegisterViewCommand(view, messages);
+            _controller.RegisterViewCommand(view, messages);
         }
 
         /// <summary>
@@ -91,7 +92,7 @@ namespace Framework.Core
         protected void RemoveMessage(IView view, string[] messages)
         {
             if (messages == null || messages.Length == 0) return;
-            Controller.Instance.RemoveViewCommand(view, messages);
+            _controller.RemoveViewCommand(view, messages);
         }
 
         /// <summary>
@@ -101,7 +102,7 @@ namespace Framework.Core
         /// <param name="body">消息内容</param>
         public void SendNotification(string notifyName, object body = null)
         {
-            Facade.SendNotification(notifyName, body);
+            _facade.SendNotification(notifyName, body);
         }
 
         #endregion
