@@ -13,7 +13,7 @@ QQ群1：685243575
 
 tolua#地址： https://github.com/topameng/tolua
 
-LuaFrameWork地址：https://github.com/jarjin/LuaFramework_UGUI 
+LuaFrameWork地址：https://github.com/jarjin/LuaFramework_UGUI_V2 
 
 关于配置与语言包的生成与使用，是用Python 3使用xlrd库，生成lua配置文件，可读性较强，但是仍存有很多可优化的空间，只是本人对lua没有很深入的研究，暂时只想到如此处理办法：
 
